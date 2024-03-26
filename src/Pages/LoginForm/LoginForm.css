@@ -1,0 +1,49 @@
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+.loginButton {
+    width: 400px;
+    background: #032541;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+      
+}
+.loginButton:active {
+    background: #007fe7;
+    box-shadow: 0px 2.74343px 2.74343px rgba(0, 0, 0, 0.25);
+}
+
+
+.LoginForm{
+    display: flex;
+    width: 400px;
+    position: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.formItem{
+    
+    display: flex;
+    justify-content: center;
+    position: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif; 
+    
+}
